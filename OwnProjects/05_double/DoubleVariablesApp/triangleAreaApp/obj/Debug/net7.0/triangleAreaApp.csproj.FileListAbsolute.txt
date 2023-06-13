@@ -1,0 +1,15 @@
+E:\Curso_c#\TimCurse\OwnProjects\05_double\DoubleVariablesApp\triangleAreaApp\bin\Debug\net7.0\triangleAreaApp.exe
+E:\Curso_c#\TimCurse\OwnProjects\05_double\DoubleVariablesApp\triangleAreaApp\bin\Debug\net7.0\triangleAreaApp.deps.json
+E:\Curso_c#\TimCurse\OwnProjects\05_double\DoubleVariablesApp\triangleAreaApp\bin\Debug\net7.0\triangleAreaApp.runtimeconfig.json
+E:\Curso_c#\TimCurse\OwnProjects\05_double\DoubleVariablesApp\triangleAreaApp\bin\Debug\net7.0\triangleAreaApp.dll
+E:\Curso_c#\TimCurse\OwnProjects\05_double\DoubleVariablesApp\triangleAreaApp\bin\Debug\net7.0\triangleAreaApp.pdb
+E:\Curso_c#\TimCurse\OwnProjects\05_double\DoubleVariablesApp\triangleAreaApp\obj\Debug\net7.0\triangleAreaApp.csproj.AssemblyReference.cache
+E:\Curso_c#\TimCurse\OwnProjects\05_double\DoubleVariablesApp\triangleAreaApp\obj\Debug\net7.0\triangleAreaApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Curso_c#\TimCurse\OwnProjects\05_double\DoubleVariablesApp\triangleAreaApp\obj\Debug\net7.0\triangleAreaApp.AssemblyInfoInputs.cache
+E:\Curso_c#\TimCurse\OwnProjects\05_double\DoubleVariablesApp\triangleAreaApp\obj\Debug\net7.0\triangleAreaApp.AssemblyInfo.cs
+E:\Curso_c#\TimCurse\OwnProjects\05_double\DoubleVariablesApp\triangleAreaApp\obj\Debug\net7.0\triangleAreaApp.csproj.CoreCompileInputs.cache
+E:\Curso_c#\TimCurse\OwnProjects\05_double\DoubleVariablesApp\triangleAreaApp\obj\Debug\net7.0\triangleAreaApp.dll
+E:\Curso_c#\TimCurse\OwnProjects\05_double\DoubleVariablesApp\triangleAreaApp\obj\Debug\net7.0\refint\triangleAreaApp.dll
+E:\Curso_c#\TimCurse\OwnProjects\05_double\DoubleVariablesApp\triangleAreaApp\obj\Debug\net7.0\triangleAreaApp.pdb
+E:\Curso_c#\TimCurse\OwnProjects\05_double\DoubleVariablesApp\triangleAreaApp\obj\Debug\net7.0\triangleAreaApp.genruntimeconfig.cache
+E:\Curso_c#\TimCurse\OwnProjects\05_double\DoubleVariablesApp\triangleAreaApp\obj\Debug\net7.0\ref\triangleAreaApp.dll
