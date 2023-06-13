@@ -1,0 +1,15 @@
+E:\Curso_c#\TimCurse\SecondApplication\GreetingApp\bin\Debug\net7.0\GreetingApp.exe
+E:\Curso_c#\TimCurse\SecondApplication\GreetingApp\bin\Debug\net7.0\GreetingApp.deps.json
+E:\Curso_c#\TimCurse\SecondApplication\GreetingApp\bin\Debug\net7.0\GreetingApp.runtimeconfig.json
+E:\Curso_c#\TimCurse\SecondApplication\GreetingApp\bin\Debug\net7.0\GreetingApp.dll
+E:\Curso_c#\TimCurse\SecondApplication\GreetingApp\bin\Debug\net7.0\GreetingApp.pdb
+E:\Curso_c#\TimCurse\SecondApplication\GreetingApp\obj\Debug\net7.0\GreetingApp.csproj.AssemblyReference.cache
+E:\Curso_c#\TimCurse\SecondApplication\GreetingApp\obj\Debug\net7.0\GreetingApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Curso_c#\TimCurse\SecondApplication\GreetingApp\obj\Debug\net7.0\GreetingApp.AssemblyInfoInputs.cache
+E:\Curso_c#\TimCurse\SecondApplication\GreetingApp\obj\Debug\net7.0\GreetingApp.AssemblyInfo.cs
+E:\Curso_c#\TimCurse\SecondApplication\GreetingApp\obj\Debug\net7.0\GreetingApp.csproj.CoreCompileInputs.cache
+E:\Curso_c#\TimCurse\SecondApplication\GreetingApp\obj\Debug\net7.0\GreetingApp.dll
+E:\Curso_c#\TimCurse\SecondApplication\GreetingApp\obj\Debug\net7.0\refint\GreetingApp.dll
+E:\Curso_c#\TimCurse\SecondApplication\GreetingApp\obj\Debug\net7.0\GreetingApp.pdb
+E:\Curso_c#\TimCurse\SecondApplication\GreetingApp\obj\Debug\net7.0\GreetingApp.genruntimeconfig.cache
+E:\Curso_c#\TimCurse\SecondApplication\GreetingApp\obj\Debug\net7.0\ref\GreetingApp.dll

@@ -1,0 +1,15 @@
+E:\Curso_c#\TimCurse\FirstAplication\SaveVariables\bin\Debug\net7.0\SaveVariables.exe
+E:\Curso_c#\TimCurse\FirstAplication\SaveVariables\bin\Debug\net7.0\SaveVariables.deps.json
+E:\Curso_c#\TimCurse\FirstAplication\SaveVariables\bin\Debug\net7.0\SaveVariables.runtimeconfig.json
+E:\Curso_c#\TimCurse\FirstAplication\SaveVariables\bin\Debug\net7.0\SaveVariables.dll
+E:\Curso_c#\TimCurse\FirstAplication\SaveVariables\bin\Debug\net7.0\SaveVariables.pdb
+E:\Curso_c#\TimCurse\FirstAplication\SaveVariables\obj\Debug\net7.0\SaveVariables.csproj.AssemblyReference.cache
+E:\Curso_c#\TimCurse\FirstAplication\SaveVariables\obj\Debug\net7.0\SaveVariables.GeneratedMSBuildEditorConfig.editorconfig
+E:\Curso_c#\TimCurse\FirstAplication\SaveVariables\obj\Debug\net7.0\SaveVariables.AssemblyInfoInputs.cache
+E:\Curso_c#\TimCurse\FirstAplication\SaveVariables\obj\Debug\net7.0\SaveVariables.AssemblyInfo.cs
+E:\Curso_c#\TimCurse\FirstAplication\SaveVariables\obj\Debug\net7.0\SaveVariables.csproj.CoreCompileInputs.cache
+E:\Curso_c#\TimCurse\FirstAplication\SaveVariables\obj\Debug\net7.0\SaveVariables.dll
+E:\Curso_c#\TimCurse\FirstAplication\SaveVariables\obj\Debug\net7.0\refint\SaveVariables.dll
+E:\Curso_c#\TimCurse\FirstAplication\SaveVariables\obj\Debug\net7.0\SaveVariables.pdb
+E:\Curso_c#\TimCurse\FirstAplication\SaveVariables\obj\Debug\net7.0\SaveVariables.genruntimeconfig.cache
+E:\Curso_c#\TimCurse\FirstAplication\SaveVariables\obj\Debug\net7.0\ref\SaveVariables.dll
