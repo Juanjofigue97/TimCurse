@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Curso_c#\\TimCurse\\FirstAplication\\ChangeBackgroundColor\\ChangeBackgroundColor.csproj",
+      "projectUniqueName": "E:\\Curso_c#\\TimCurse\\OwnProjects\\01_FirstAplication\\ChangeBackgroundColor\\ChangeBackgroundColor.csproj",
       "projectName": "ChangeBackgroundColor",
-      "projectPath": "E:\\Curso_c#\\TimCurse\\FirstAplication\\ChangeBackgroundColor\\ChangeBackgroundColor.csproj",
+      "projectPath": "E:\\Curso_c#\\TimCurse\\OwnProjects\\01_FirstAplication\\ChangeBackgroundColor\\ChangeBackgroundColor.csproj",
       "packagesPath": "C:\\Users\\juan.figueroa\\.nuget\\packages\\",
-      "outputPath": "E:\\Curso_c#\\TimCurse\\FirstAplication\\ChangeBackgroundColor\\obj\\",
+      "outputPath": "E:\\Curso_c#\\TimCurse\\OwnProjects\\01_FirstAplication\\ChangeBackgroundColor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

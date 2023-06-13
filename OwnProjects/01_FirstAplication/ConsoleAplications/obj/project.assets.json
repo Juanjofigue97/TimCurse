@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Curso_c#\\TimCurse\\FirstAplication\\ConsoleAplications\\ConsoleAplications.csproj",
+      "projectUniqueName": "E:\\Curso_c#\\TimCurse\\OwnProjects\\01_FirstAplication\\ConsoleAplications\\ConsoleAplications.csproj",
       "projectName": "ConsoleAplications",
-      "projectPath": "E:\\Curso_c#\\TimCurse\\FirstAplication\\ConsoleAplications\\ConsoleAplications.csproj",
+      "projectPath": "E:\\Curso_c#\\TimCurse\\OwnProjects\\01_FirstAplication\\ConsoleAplications\\ConsoleAplications.csproj",
       "packagesPath": "C:\\Users\\juan.figueroa\\.nuget\\packages\\",
-      "outputPath": "E:\\Curso_c#\\TimCurse\\FirstAplication\\ConsoleAplications\\obj\\",
+      "outputPath": "E:\\Curso_c#\\TimCurse\\OwnProjects\\01_FirstAplication\\ConsoleAplications\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
