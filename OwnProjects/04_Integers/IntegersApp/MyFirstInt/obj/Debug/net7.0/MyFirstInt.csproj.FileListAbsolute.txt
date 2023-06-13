@@ -1,0 +1,15 @@
+E:\Curso_c#\TimCurse\OwnProjects\04_Integers\IntegersApp\MyFirstInt\bin\Debug\net7.0\MyFirstInt.exe
+E:\Curso_c#\TimCurse\OwnProjects\04_Integers\IntegersApp\MyFirstInt\bin\Debug\net7.0\MyFirstInt.deps.json
+E:\Curso_c#\TimCurse\OwnProjects\04_Integers\IntegersApp\MyFirstInt\bin\Debug\net7.0\MyFirstInt.runtimeconfig.json
+E:\Curso_c#\TimCurse\OwnProjects\04_Integers\IntegersApp\MyFirstInt\bin\Debug\net7.0\MyFirstInt.dll
+E:\Curso_c#\TimCurse\OwnProjects\04_Integers\IntegersApp\MyFirstInt\bin\Debug\net7.0\MyFirstInt.pdb
+E:\Curso_c#\TimCurse\OwnProjects\04_Integers\IntegersApp\MyFirstInt\obj\Debug\net7.0\MyFirstInt.csproj.AssemblyReference.cache
+E:\Curso_c#\TimCurse\OwnProjects\04_Integers\IntegersApp\MyFirstInt\obj\Debug\net7.0\MyFirstInt.GeneratedMSBuildEditorConfig.editorconfig
+E:\Curso_c#\TimCurse\OwnProjects\04_Integers\IntegersApp\MyFirstInt\obj\Debug\net7.0\MyFirstInt.AssemblyInfoInputs.cache
+E:\Curso_c#\TimCurse\OwnProjects\04_Integers\IntegersApp\MyFirstInt\obj\Debug\net7.0\MyFirstInt.AssemblyInfo.cs
+E:\Curso_c#\TimCurse\OwnProjects\04_Integers\IntegersApp\MyFirstInt\obj\Debug\net7.0\MyFirstInt.csproj.CoreCompileInputs.cache
+E:\Curso_c#\TimCurse\OwnProjects\04_Integers\IntegersApp\MyFirstInt\obj\Debug\net7.0\MyFirstInt.dll
+E:\Curso_c#\TimCurse\OwnProjects\04_Integers\IntegersApp\MyFirstInt\obj\Debug\net7.0\refint\MyFirstInt.dll
+E:\Curso_c#\TimCurse\OwnProjects\04_Integers\IntegersApp\MyFirstInt\obj\Debug\net7.0\MyFirstInt.pdb
+E:\Curso_c#\TimCurse\OwnProjects\04_Integers\IntegersApp\MyFirstInt\obj\Debug\net7.0\MyFirstInt.genruntimeconfig.cache
+E:\Curso_c#\TimCurse\OwnProjects\04_Integers\IntegersApp\MyFirstInt\obj\Debug\net7.0\ref\MyFirstInt.dll
