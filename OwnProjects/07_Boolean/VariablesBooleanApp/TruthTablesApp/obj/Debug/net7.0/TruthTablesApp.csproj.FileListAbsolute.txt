@@ -1,0 +1,15 @@
+E:\Curso_c#\TimCurse\OwnProjects\07_Boolean\VariablesBooleanApp\TruthTablesApp\bin\Debug\net7.0\TruthTablesApp.exe
+E:\Curso_c#\TimCurse\OwnProjects\07_Boolean\VariablesBooleanApp\TruthTablesApp\bin\Debug\net7.0\TruthTablesApp.deps.json
+E:\Curso_c#\TimCurse\OwnProjects\07_Boolean\VariablesBooleanApp\TruthTablesApp\bin\Debug\net7.0\TruthTablesApp.runtimeconfig.json
+E:\Curso_c#\TimCurse\OwnProjects\07_Boolean\VariablesBooleanApp\TruthTablesApp\bin\Debug\net7.0\TruthTablesApp.dll
+E:\Curso_c#\TimCurse\OwnProjects\07_Boolean\VariablesBooleanApp\TruthTablesApp\bin\Debug\net7.0\TruthTablesApp.pdb
+E:\Curso_c#\TimCurse\OwnProjects\07_Boolean\VariablesBooleanApp\TruthTablesApp\obj\Debug\net7.0\TruthTablesApp.csproj.AssemblyReference.cache
+E:\Curso_c#\TimCurse\OwnProjects\07_Boolean\VariablesBooleanApp\TruthTablesApp\obj\Debug\net7.0\TruthTablesApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Curso_c#\TimCurse\OwnProjects\07_Boolean\VariablesBooleanApp\TruthTablesApp\obj\Debug\net7.0\TruthTablesApp.AssemblyInfoInputs.cache
+E:\Curso_c#\TimCurse\OwnProjects\07_Boolean\VariablesBooleanApp\TruthTablesApp\obj\Debug\net7.0\TruthTablesApp.AssemblyInfo.cs
+E:\Curso_c#\TimCurse\OwnProjects\07_Boolean\VariablesBooleanApp\TruthTablesApp\obj\Debug\net7.0\TruthTablesApp.csproj.CoreCompileInputs.cache
+E:\Curso_c#\TimCurse\OwnProjects\07_Boolean\VariablesBooleanApp\TruthTablesApp\obj\Debug\net7.0\TruthTablesApp.dll
+E:\Curso_c#\TimCurse\OwnProjects\07_Boolean\VariablesBooleanApp\TruthTablesApp\obj\Debug\net7.0\refint\TruthTablesApp.dll
+E:\Curso_c#\TimCurse\OwnProjects\07_Boolean\VariablesBooleanApp\TruthTablesApp\obj\Debug\net7.0\TruthTablesApp.pdb
+E:\Curso_c#\TimCurse\OwnProjects\07_Boolean\VariablesBooleanApp\TruthTablesApp\obj\Debug\net7.0\TruthTablesApp.genruntimeconfig.cache
+E:\Curso_c#\TimCurse\OwnProjects\07_Boolean\VariablesBooleanApp\TruthTablesApp\obj\Debug\net7.0\ref\TruthTablesApp.dll

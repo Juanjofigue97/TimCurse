@@ -1,0 +1,15 @@
+E:\Curso_c#\TimCurse\OwnProjects\08_Null\NullKeyWordApp\variableNull\bin\Debug\net7.0\variableNull.exe
+E:\Curso_c#\TimCurse\OwnProjects\08_Null\NullKeyWordApp\variableNull\bin\Debug\net7.0\variableNull.deps.json
+E:\Curso_c#\TimCurse\OwnProjects\08_Null\NullKeyWordApp\variableNull\bin\Debug\net7.0\variableNull.runtimeconfig.json
+E:\Curso_c#\TimCurse\OwnProjects\08_Null\NullKeyWordApp\variableNull\bin\Debug\net7.0\variableNull.dll
+E:\Curso_c#\TimCurse\OwnProjects\08_Null\NullKeyWordApp\variableNull\bin\Debug\net7.0\variableNull.pdb
+E:\Curso_c#\TimCurse\OwnProjects\08_Null\NullKeyWordApp\variableNull\obj\Debug\net7.0\variableNull.csproj.AssemblyReference.cache
+E:\Curso_c#\TimCurse\OwnProjects\08_Null\NullKeyWordApp\variableNull\obj\Debug\net7.0\variableNull.GeneratedMSBuildEditorConfig.editorconfig
+E:\Curso_c#\TimCurse\OwnProjects\08_Null\NullKeyWordApp\variableNull\obj\Debug\net7.0\variableNull.AssemblyInfoInputs.cache
+E:\Curso_c#\TimCurse\OwnProjects\08_Null\NullKeyWordApp\variableNull\obj\Debug\net7.0\variableNull.AssemblyInfo.cs
+E:\Curso_c#\TimCurse\OwnProjects\08_Null\NullKeyWordApp\variableNull\obj\Debug\net7.0\variableNull.csproj.CoreCompileInputs.cache
+E:\Curso_c#\TimCurse\OwnProjects\08_Null\NullKeyWordApp\variableNull\obj\Debug\net7.0\variableNull.dll
+E:\Curso_c#\TimCurse\OwnProjects\08_Null\NullKeyWordApp\variableNull\obj\Debug\net7.0\refint\variableNull.dll
+E:\Curso_c#\TimCurse\OwnProjects\08_Null\NullKeyWordApp\variableNull\obj\Debug\net7.0\variableNull.pdb
+E:\Curso_c#\TimCurse\OwnProjects\08_Null\NullKeyWordApp\variableNull\obj\Debug\net7.0\variableNull.genruntimeconfig.cache
+E:\Curso_c#\TimCurse\OwnProjects\08_Null\NullKeyWordApp\variableNull\obj\Debug\net7.0\ref\variableNull.dll
