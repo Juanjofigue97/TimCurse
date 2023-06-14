@@ -36,7 +36,7 @@ else if (Discriminant == 0)
 else
 {
     Discriminant *= -1;  
-    Console.WriteLine("There is a single real solution.");
+    Console.WriteLine("There are two distinct complex solutions.");
     double firstEquation = (-parameterB) / (2 * parameterA);
     double SecondEquation = (Math.Sqrt(Discriminant)) / (2 * parameterA);
     Console.WriteLine($"X_1 = {firstEquation:0.###} + {SecondEquation:0.###}i");
