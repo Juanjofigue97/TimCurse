@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstDateOnlyApp", "FirstDateOnlyApp\FirstDateOnlyApp.csproj", "{836E76EC-C22C-4A8C-95FF-2990D1577856}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstDateOnlyApp", "FirstDateOnlyApp\FirstDateOnlyApp.csproj", "{836E76EC-C22C-4A8C-95FF-2990D1577856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseDate", "ParseDate\ParseDate.csproj", "{3C922F92-D0C2-4D03-9719-FE3FDC87E232}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{836E76EC-C22C-4A8C-95FF-2990D1577856}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{836E76EC-C22C-4A8C-95FF-2990D1577856}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{836E76EC-C22C-4A8C-95FF-2990D1577856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C922F92-D0C2-4D03-9719-FE3FDC87E232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C922F92-D0C2-4D03-9719-FE3FDC87E232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C922F92-D0C2-4D03-9719-FE3FDC87E232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C922F92-D0C2-4D03-9719-FE3FDC87E232}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
