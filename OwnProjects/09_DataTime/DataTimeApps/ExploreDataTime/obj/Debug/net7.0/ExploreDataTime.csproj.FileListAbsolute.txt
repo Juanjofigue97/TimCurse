@@ -1,0 +1,15 @@
+D:\C#\iamtimcorey\TimCurse\OwnProjects\09_DataTime\DataTimeApps\ExploreDataTime\bin\Debug\net7.0\ExploreDataTime.exe
+D:\C#\iamtimcorey\TimCurse\OwnProjects\09_DataTime\DataTimeApps\ExploreDataTime\bin\Debug\net7.0\ExploreDataTime.deps.json
+D:\C#\iamtimcorey\TimCurse\OwnProjects\09_DataTime\DataTimeApps\ExploreDataTime\bin\Debug\net7.0\ExploreDataTime.runtimeconfig.json
+D:\C#\iamtimcorey\TimCurse\OwnProjects\09_DataTime\DataTimeApps\ExploreDataTime\bin\Debug\net7.0\ExploreDataTime.dll
+D:\C#\iamtimcorey\TimCurse\OwnProjects\09_DataTime\DataTimeApps\ExploreDataTime\bin\Debug\net7.0\ExploreDataTime.pdb
+D:\C#\iamtimcorey\TimCurse\OwnProjects\09_DataTime\DataTimeApps\ExploreDataTime\obj\Debug\net7.0\ExploreDataTime.csproj.AssemblyReference.cache
+D:\C#\iamtimcorey\TimCurse\OwnProjects\09_DataTime\DataTimeApps\ExploreDataTime\obj\Debug\net7.0\ExploreDataTime.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\iamtimcorey\TimCurse\OwnProjects\09_DataTime\DataTimeApps\ExploreDataTime\obj\Debug\net7.0\ExploreDataTime.AssemblyInfoInputs.cache
+D:\C#\iamtimcorey\TimCurse\OwnProjects\09_DataTime\DataTimeApps\ExploreDataTime\obj\Debug\net7.0\ExploreDataTime.AssemblyInfo.cs
+D:\C#\iamtimcorey\TimCurse\OwnProjects\09_DataTime\DataTimeApps\ExploreDataTime\obj\Debug\net7.0\ExploreDataTime.csproj.CoreCompileInputs.cache
+D:\C#\iamtimcorey\TimCurse\OwnProjects\09_DataTime\DataTimeApps\ExploreDataTime\obj\Debug\net7.0\ExploreDataTime.dll
+D:\C#\iamtimcorey\TimCurse\OwnProjects\09_DataTime\DataTimeApps\ExploreDataTime\obj\Debug\net7.0\refint\ExploreDataTime.dll
+D:\C#\iamtimcorey\TimCurse\OwnProjects\09_DataTime\DataTimeApps\ExploreDataTime\obj\Debug\net7.0\ExploreDataTime.pdb
+D:\C#\iamtimcorey\TimCurse\OwnProjects\09_DataTime\DataTimeApps\ExploreDataTime\obj\Debug\net7.0\ExploreDataTime.genruntimeconfig.cache
+D:\C#\iamtimcorey\TimCurse\OwnProjects\09_DataTime\DataTimeApps\ExploreDataTime\obj\Debug\net7.0\ref\ExploreDataTime.dll
