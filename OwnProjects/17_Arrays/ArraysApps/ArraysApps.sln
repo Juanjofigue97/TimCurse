@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResistorColorApp", "ResistorColorApp\ResistorColorApp.csproj", "{D13DFE28-D8A6-4899-9753-830D2E3DB352}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResistorColorApp", "ResistorColorApp\ResistorColorApp.csproj", "{D13DFE28-D8A6-4899-9753-830D2E3DB352}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirdCount", "BirdCount\BirdCount.csproj", "{6BE30B08-CB95-470B-81C0-1484A0A13029}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResistorColorDuo", "ResistorColorDuo\ResistorColorDuo.csproj", "{68332F8B-312E-4C2F-A485-DF67C9F1D363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proverb", "Proverb\Proverb.csproj", "{8DA1F999-04AD-4C33-8B34-50EAE425BD4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{D13DFE28-D8A6-4899-9753-830D2E3DB352}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D13DFE28-D8A6-4899-9753-830D2E3DB352}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D13DFE28-D8A6-4899-9753-830D2E3DB352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BE30B08-CB95-470B-81C0-1484A0A13029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE30B08-CB95-470B-81C0-1484A0A13029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE30B08-CB95-470B-81C0-1484A0A13029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE30B08-CB95-470B-81C0-1484A0A13029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68332F8B-312E-4C2F-A485-DF67C9F1D363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68332F8B-312E-4C2F-A485-DF67C9F1D363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68332F8B-312E-4C2F-A485-DF67C9F1D363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68332F8B-312E-4C2F-A485-DF67C9F1D363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DA1F999-04AD-4C33-8B34-50EAE425BD4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA1F999-04AD-4C33-8B34-50EAE425BD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA1F999-04AD-4C33-8B34-50EAE425BD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA1F999-04AD-4C33-8B34-50EAE425BD4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
