@@ -1,4 +1,5 @@
 ﻿using ResistorColorApp;
-using System;
 
 Console.WriteLine(ResistorColor.ColorCode("Red"));
+
+Console.WriteLine(ResistorColorCommunity.ColorCode("Red"));

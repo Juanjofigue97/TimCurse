@@ -8,6 +8,7 @@ namespace ResistorColorApp
 {
     internal class ResistorColor
     {
+        
         public static int ColorCode(string color)
         {
             string[] listColors = new string[] 
