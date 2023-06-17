@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAplications", "Conso
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeBackgroundColor", "ChangeBackgroundColor\ChangeBackgroundColor.csproj", "{16ED313A-EED1-42E9-B1BE-E90423F155A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveVariables", "SaveVariables\SaveVariables.csproj", "{91C0B219-0A43-4A97-8FEA-97D1251E446F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaveVariables", "SaveVariables\SaveVariables.csproj", "{91C0B219-0A43-4A97-8FEA-97D1251E446F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{FC6B8E17-1CFF-471E-A426-CB0D803EF348}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{91C0B219-0A43-4A97-8FEA-97D1251E446F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91C0B219-0A43-4A97-8FEA-97D1251E446F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91C0B219-0A43-4A97-8FEA-97D1251E446F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC6B8E17-1CFF-471E-A426-CB0D803EF348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6B8E17-1CFF-471E-A426-CB0D803EF348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6B8E17-1CFF-471E-A426-CB0D803EF348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6B8E17-1CFF-471E-A426-CB0D803EF348}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
