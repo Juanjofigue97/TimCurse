@@ -7,15 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExploreDataTime", "ExploreD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingDatimeConstructor", "UsingDatimeConstructor\UsingDatimeConstructor.csproj", "{9BE317C6-72D5-4286-A139-C5D1390D8BF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayPropertiesApp", "DayPropertiesApp\DayPropertiesApp.csproj", "{572F7380-ED63-4884-8706-18B1AFEFB782}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayPropertiesApp", "DayPropertiesApp\DayPropertiesApp.csproj", "{572F7380-ED63-4884-8706-18B1AFEFB782}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayOfWeekApp", "DayOfWeekApp\DayOfWeekApp.csproj", "{F776D72E-249D-40C6-95D2-B2CE8232E3C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayOfWeekApp", "DayOfWeekApp\DayOfWeekApp.csproj", "{F776D72E-249D-40C6-95D2-B2CE8232E3C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYearApp", "LeapYearApp\LeapYearApp.csproj", "{5655DE25-DBF4-44C3-85C5-8162428C351D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeapYearApp", "LeapYearApp\LeapYearApp.csproj", "{5655DE25-DBF4-44C3-85C5-8162428C351D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalTime_CultureNames", "LocalTime_CultureNames\LocalTime_CultureNames.csproj", "{72222333-A1CA-4225-8C78-264C0C28C3E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalTime_CultureNames", "LocalTime_CultureNames\LocalTime_CultureNames.csproj", "{72222333-A1CA-4225-8C78-264C0C28C3E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddDaysApp", "AddDaysApp\AddDaysApp.csproj", "{2DFE7F88-6DD1-41FA-AAA5-46ACC448A6E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddDaysApp", "AddDaysApp\AddDaysApp.csproj", "{2DFE7F88-6DD1-41FA-AAA5-46ACC448A6E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingUpForBeauty", "BookingUpForBeauty\BookingUpForBeauty.csproj", "{53C35CC7-4697-43C5-85BC-3D6C788B8451}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{2DFE7F88-6DD1-41FA-AAA5-46ACC448A6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DFE7F88-6DD1-41FA-AAA5-46ACC448A6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DFE7F88-6DD1-41FA-AAA5-46ACC448A6E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C35CC7-4697-43C5-85BC-3D6C788B8451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C35CC7-4697-43C5-85BC-3D6C788B8451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C35CC7-4697-43C5-85BC-3D6C788B8451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C35CC7-4697-43C5-85BC-3D6C788B8451}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
