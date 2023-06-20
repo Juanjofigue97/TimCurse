@@ -6,6 +6,6 @@ Console.WriteLine("-------------------------------------------------");
 Console.WriteLine();
 
 
-var DayOfWeek = new DateTime(2016,11,7);
+var DayOfWeek = new DateTime(1996,08,02);
 
 Console.WriteLine($"The day of the week for {DayOfWeek:d/MM/yyyy} is {DayOfWeek.DayOfWeek}.");
