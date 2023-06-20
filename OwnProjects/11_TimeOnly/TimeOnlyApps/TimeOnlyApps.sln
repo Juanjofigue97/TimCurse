@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstTimeOnlyApp", "FirstTimeOnlyApp\FirstTimeOnlyApp.csproj", "{28007452-2370-41C2-B9B7-F86E7074F080}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstTimeOnlyApp", "FirstTimeOnlyApp\FirstTimeOnlyApp.csproj", "{28007452-2370-41C2-B9B7-F86E7074F080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertDateTimeOnly", "ConvertDateTimeOnly\ConvertDateTimeOnly.csproj", "{7142B841-0B88-442D-A2B8-4D7AB1F413E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithmeticOperations", "ArithmeticOperations\ArithmeticOperations.csproj", "{D63ED269-AC2D-47EC-97F7-271AE08E122A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{28007452-2370-41C2-B9B7-F86E7074F080}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28007452-2370-41C2-B9B7-F86E7074F080}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28007452-2370-41C2-B9B7-F86E7074F080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7142B841-0B88-442D-A2B8-4D7AB1F413E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7142B841-0B88-442D-A2B8-4D7AB1F413E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7142B841-0B88-442D-A2B8-4D7AB1F413E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7142B841-0B88-442D-A2B8-4D7AB1F413E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D63ED269-AC2D-47EC-97F7-271AE08E122A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D63ED269-AC2D-47EC-97F7-271AE08E122A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D63ED269-AC2D-47EC-97F7-271AE08E122A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D63ED269-AC2D-47EC-97F7-271AE08E122A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
