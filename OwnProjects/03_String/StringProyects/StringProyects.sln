@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicStrings", "BasicStrings\BasicStrings.csproj", "{1758F5B5-D5DF-4A24-B371-1EA4A134B943}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicStrings", "BasicStrings\BasicStrings.csproj", "{1758F5B5-D5DF-4A24-B371-1EA4A134B943}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringInterpolation", "StringInterpolation\StringInterpolation.csproj", "{5E614149-4E6D-45D1-B144-EF0BEB1A0021}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringInterpolation", "StringInterpolation\StringInterpolation.csproj", "{5E614149-4E6D-45D1-B144-EF0BEB1A0021}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerbatimString", "VerbatimString\VerbatimString.csproj", "{5EEBE545-625E-4779-9F2C-B49D87DEB2A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerbatimString", "VerbatimString\VerbatimString.csproj", "{5EEBE545-625E-4779-9F2C-B49D87DEB2A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringInterpolation_Verbatim", "StringInterpolation_Verbatim\StringInterpolation_Verbatim.csproj", "{8BA5AE2D-0768-4208-82AA-B5D9A29B1B36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringInterpolation_Verbatim", "StringInterpolation_Verbatim\StringInterpolation_Verbatim.csproj", "{8BA5AE2D-0768-4208-82AA-B5D9A29B1B36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "ReverseString\ReverseString.csproj", "{647F3521-3671-4946-8462-D3610B9D1C7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunLengthEncoding", "RunLengthEncoding\RunLengthEncoding.csproj", "{712310CC-58B2-4208-AE09-D6E2CAB8270D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{8BA5AE2D-0768-4208-82AA-B5D9A29B1B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BA5AE2D-0768-4208-82AA-B5D9A29B1B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BA5AE2D-0768-4208-82AA-B5D9A29B1B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{647F3521-3671-4946-8462-D3610B9D1C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647F3521-3671-4946-8462-D3610B9D1C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647F3521-3671-4946-8462-D3610B9D1C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647F3521-3671-4946-8462-D3610B9D1C7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712310CC-58B2-4208-AE09-D6E2CAB8270D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712310CC-58B2-4208-AE09-D6E2CAB8270D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712310CC-58B2-4208-AE09-D6E2CAB8270D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712310CC-58B2-4208-AE09-D6E2CAB8270D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
