@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodApp", "MethodApp\MethodApp.csproj", "{3A3C2A36-C3F3-423C-A20D-EB2C4AEB80CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accumulate", "Accumulate\Accumulate.csproj", "{E69D2CB9-4982-4CAD-983D-3B29124E1C21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A3C2A36-C3F3-423C-A20D-EB2C4AEB80CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3C2A36-C3F3-423C-A20D-EB2C4AEB80CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3C2A36-C3F3-423C-A20D-EB2C4AEB80CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3C2A36-C3F3-423C-A20D-EB2C4AEB80CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E69D2CB9-4982-4CAD-983D-3B29124E1C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69D2CB9-4982-4CAD-983D-3B29124E1C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69D2CB9-4982-4CAD-983D-3B29124E1C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69D2CB9-4982-4CAD-983D-3B29124E1C21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF55D0F3-4F3B-4795-A5AB-54E13D30CFA0}
+	EndGlobalSection
+EndGlobal
