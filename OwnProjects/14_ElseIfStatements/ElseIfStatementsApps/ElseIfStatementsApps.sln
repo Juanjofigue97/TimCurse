@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElseIfStatements", "ElseIfStatements\ElseIfStatements.csproj", "{E3174C16-6B57-4C2F-BC8A-1213DC2CEEBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureCentigrade", "TemperatureCentigrade\TemperatureCentigrade.csproj", "{D52990BC-227A-4DD0-8E3D-F1DA39C5182F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3174C16-6B57-4C2F-BC8A-1213DC2CEEBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3174C16-6B57-4C2F-BC8A-1213DC2CEEBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3174C16-6B57-4C2F-BC8A-1213DC2CEEBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3174C16-6B57-4C2F-BC8A-1213DC2CEEBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D52990BC-227A-4DD0-8E3D-F1DA39C5182F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D52990BC-227A-4DD0-8E3D-F1DA39C5182F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D52990BC-227A-4DD0-8E3D-F1DA39C5182F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D52990BC-227A-4DD0-8E3D-F1DA39C5182F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6487A3BA-47CA-4146-A5EB-25F85F61288B}
+	EndGlobalSection
+EndGlobal
