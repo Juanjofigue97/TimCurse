@@ -1,0 +1,30 @@
+1. Create ClassLibrary GuestBookLibrary
+2. First Name, last name. message to the host
+3. Once done, loop through each guest and print their info
+4. Folder => Models
+5. GuestModel
+6. Properties: FirstName,LastName,MessageToHost
+7. using GuestBook
+8. Assumtion is at least one guest and unknow maximun
+9. Create List<GuestModel>
+10. moreGuestComing= "yes";
+11. do_while Loop
+12. First do Then Refactor (not Tomorrow jejej)
+13. What is Your firstName
+14. guest => singular (Plurar and Singular Very important)
+15. What is Your lastName, What message would you like to tell your host
+16. "Are more guest coming (yes/no): "
+17. Console.Clear()
+18. guest.Add(guest)
+19. foreach (Print => GuestInfo )
+20. Properties: GuestInfo readonly (get) => FirstName,LastName,MessageToHost
+
+SRP
+
+Refactor => Simple to debug 
+
+21. GetGuestInformation Static Method
+22. GetInfoFromConsole 
+
+
+
