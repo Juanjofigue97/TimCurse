@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResistorColorDuo", "Resisto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proverb", "Proverb\Proverb.csproj", "{8DA1F999-04AD-4C33-8B34-50EAE425BD4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiralMatrixNumber", "SpiralMatrixNumber\SpiralMatrixNumber.csproj", "{9293E446-5730-41A9-BBB8-ECF29ABC6622}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpiralMatrixNumber", "SpiralMatrixNumber\SpiralMatrixNumber.csproj", "{9293E446-5730-41A9-BBB8-ECF29ABC6622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnagramApp", "AnagramApp\AnagramApp.csproj", "{73A27556-A912-4EF7-8934-61360BBBC3EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9293E446-5730-41A9-BBB8-ECF29ABC6622}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9293E446-5730-41A9-BBB8-ECF29ABC6622}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9293E446-5730-41A9-BBB8-ECF29ABC6622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A27556-A912-4EF7-8934-61360BBBC3EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A27556-A912-4EF7-8934-61360BBBC3EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A27556-A912-4EF7-8934-61360BBBC3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A27556-A912-4EF7-8934-61360BBBC3EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
