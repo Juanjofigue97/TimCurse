@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodApp", "MethodApp\MethodApp.csproj", "{3A3C2A36-C3F3-423C-A20D-EB2C4AEB80CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodApp", "MethodApp\MethodApp.csproj", "{3A3C2A36-C3F3-423C-A20D-EB2C4AEB80CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accumulate", "Accumulate\Accumulate.csproj", "{E69D2CB9-4982-4CAD-983D-3B29124E1C21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accumulate", "Accumulate\Accumulate.csproj", "{E69D2CB9-4982-4CAD-983D-3B29124E1C21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accumulate.Tests", "Accumulate.Tests\Accumulate.Tests.csproj", "{F8777734-E750-4950-85B7-7AAE2E88B51D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E69D2CB9-4982-4CAD-983D-3B29124E1C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E69D2CB9-4982-4CAD-983D-3B29124E1C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E69D2CB9-4982-4CAD-983D-3B29124E1C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8777734-E750-4950-85B7-7AAE2E88B51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8777734-E750-4950-85B7-7AAE2E88B51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8777734-E750-4950-85B7-7AAE2E88B51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8777734-E750-4950-85B7-7AAE2E88B51D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
