@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoPersonInformation", "DemoPersonInformation\DemoPersonInformation.csproj", "{51F6CEB2-D8C3-4FEC-954A-2098410E900C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonModelLibrary", "PersonModel\PersonModelLibrary.csproj", "{F1D27607-B58C-4C98-B53C-6EC11A14EB3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51F6CEB2-D8C3-4FEC-954A-2098410E900C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F6CEB2-D8C3-4FEC-954A-2098410E900C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F6CEB2-D8C3-4FEC-954A-2098410E900C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F6CEB2-D8C3-4FEC-954A-2098410E900C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D27607-B58C-4C98-B53C-6EC11A14EB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D27607-B58C-4C98-B53C-6EC11A14EB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D27607-B58C-4C98-B53C-6EC11A14EB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D27607-B58C-4C98-B53C-6EC11A14EB3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F4B1657-D2C2-4C6B-9B4B-6B67497B17E5}
+	EndGlobalSection
+EndGlobal
