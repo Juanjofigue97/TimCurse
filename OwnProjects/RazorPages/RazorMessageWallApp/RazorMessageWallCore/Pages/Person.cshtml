@@ -1,0 +1,15 @@
+﻿@page
+@model RazorMessageWallCore.Pages.PersonModel
+@{
+    ViewData["Title"] = "Person";
+}
+
+<form method="post">
+    <div class="form-group">
+        <input asp-for="FirstName" type="text" placeholder="Type your FirstName" />
+        <input asp-for="LastName" type="text" placeholder="Type your LastName" />
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</form>
+
+<h2> Hello! @Model.FullName </h2>
