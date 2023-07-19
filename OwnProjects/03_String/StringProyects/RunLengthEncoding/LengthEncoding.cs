@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,7 +12,7 @@ namespace RunLengthEncoding
         public static string Encode(string input)
         {
             string output = string.Empty;
-            if (input == output)
+            if (input == string.Empty)
             {
                 return output;
             }
@@ -50,10 +51,11 @@ namespace RunLengthEncoding
             return output;    
         }
 
+
+
         public static string Decode(string input)
         {
             string output = "";
-            int number = 0;
             int realnumber = 0;
             int index = 0;
 
@@ -61,7 +63,7 @@ namespace RunLengthEncoding
             {
                 var letter = input[i];
                 var trynumber  = input[index..(i+1)];
-                var isValidNimber = int.TryParse(trynumber,out number);
+                var isValidNimber = int.TryParse(trynumber,out int number);
 
                 if (number != 0)
                 {

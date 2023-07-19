@@ -1,0 +1,14 @@
+-- Codificar
+Example: (AABBLLUUAAA) 2A2B2L2U3A
+
+1. Recorrer el string
+2. Mirar si la siguiente es la misma letra
+3. Si no es Guardar las variables en un string 
+4. Devolver string
+
+--Decodificar
+
+1. Encontrar Numero 
+2. Buscar Letra Siguiente
+3. For agregando la palabra
+4. Devolver el string
