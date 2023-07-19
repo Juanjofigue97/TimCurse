@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerbatimString", "VerbatimS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringInterpolation_Verbatim", "StringInterpolation_Verbatim\StringInterpolation_Verbatim.csproj", "{8BA5AE2D-0768-4208-82AA-B5D9A29B1B36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "ReverseString\ReverseString.csproj", "{647F3521-3671-4946-8462-D3610B9D1C7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseString", "ReverseString\ReverseString.csproj", "{647F3521-3671-4946-8462-D3610B9D1C7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunLengthEncoding", "RunLengthEncoding\RunLengthEncoding.csproj", "{712310CC-58B2-4208-AE09-D6E2CAB8270D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RunLengthEncoding", "RunLengthEncoding\RunLengthEncoding.csproj", "{712310CC-58B2-4208-AE09-D6E2CAB8270D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunLengthEncoding.Tests", "RunLengthEncoding.Tests\RunLengthEncoding.Tests.csproj", "{C6654EC3-A50F-4E14-B6F6-AB2C4024FFD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{712310CC-58B2-4208-AE09-D6E2CAB8270D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{712310CC-58B2-4208-AE09-D6E2CAB8270D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{712310CC-58B2-4208-AE09-D6E2CAB8270D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6654EC3-A50F-4E14-B6F6-AB2C4024FFD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6654EC3-A50F-4E14-B6F6-AB2C4024FFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6654EC3-A50F-4E14-B6F6-AB2C4024FFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6654EC3-A50F-4E14-B6F6-AB2C4024FFD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

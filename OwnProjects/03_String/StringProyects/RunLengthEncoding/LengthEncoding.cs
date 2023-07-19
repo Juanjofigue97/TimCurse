@@ -10,43 +10,76 @@ namespace RunLengthEncoding
     {
         public static string Encode(string input)
         {
-            string encode = string.Empty;
-            int counter = 1;
-            for (int i = 0; i<input.Length-1;i++)
+            string output = string.Empty;
+            if (input == output)
             {
-                if (input[i] == input[input.Length])
-                {
+                return output;
+            }
+            
+            char comparer = input[0];
+            int number = 1;
 
-                }
-                else if (input[i] == input[i + 1])
+            for (int i = 1; i < input.Length; i++)
+            {
+                if (input[i] != comparer)
                 {
-                    counter++;
+                    if (number > 1)
+                    {
+                        output +=$"{ number }{ comparer }";
+                    }else
+                    {
+                        output += $"{comparer}";
+                    }
+                    number = 1;
+                    comparer = input[i];
+                    if (i == input.Length - 1)
+                    {
+                        output += $"{comparer}";
+                    }
                 }
                 else
                 {
-                    encode += counter.ToString() + input[i];
-                    counter = 1;
+                    number++;
+                    if (i == input.Length-1)
+                    {
+                        output += $"{number}{comparer}";
+                    }
                 }
             }
-            return encode;
+
+            return output;    
         }
 
         public static string Decode(string input)
         {
-            string decode = string.Empty;
-            int pointer = 0;
-            for (int i = 0; i < input.Length - 1; i++)
-            {
-                string Number = input[i].ToString();
-                bool isValidNumber = int.TryParse(Number,out int number);
+            string output = "";
+            int number = 0;
+            int realnumber = 0;
+            int index = 0;
 
-                if (!isValidNumber)
+            for (int i = 0; i < input.Length; i++)
+            {
+                var letter = input[i];
+                var trynumber  = input[index..(i+1)];
+                var isValidNimber = int.TryParse(trynumber,out number);
+
+                if (number != 0)
                 {
-                    Console.WriteLine(number);
+                    realnumber = number;
                 }
 
+                if (!isValidNimber || letter == ' ') 
+                {
+                    output += $"{letter}";
+                    for (int j = 0; j < realnumber-1; j++)
+                    {
+                        output += $"{ letter }";
+                    }
+                    index = i + 1;
+                    realnumber = 0;
+                }
             }
-            throw new NotImplementedException("You need to implement this function.");
+            return output;
         }
     }
 }
