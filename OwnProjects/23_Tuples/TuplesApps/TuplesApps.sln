@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuplesApp", "TuplesApp\TuplesApp.csproj", "{B2A38CF3-B758-4423-86B2-87D67278E360}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TuplesApp", "TuplesApp\TuplesApp.csproj", "{B2A38CF3-B758-4423-86B2-87D67278E360}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TupleDeconstruction", "TupleDeconstruction\TupleDeconstruction.csproj", "{50776940-D392-4FAF-81B8-3D82DA2579D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TupleDeconstruction", "TupleDeconstruction\TupleDeconstruction.csproj", "{50776940-D392-4FAF-81B8-3D82DA2579D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedTuples", "NestedTuples\NestedTuples.csproj", "{50E0BCBC-4AA8-4652-996C-9FC9310B5C25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NestedTuples", "NestedTuples\NestedTuples.csproj", "{50E0BCBC-4AA8-4652-996C-9FC9310B5C25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DominoesApp", "DominoesApp\DominoesApp.csproj", "{0C949B1A-C27A-4E7D-971F-2B961E96C908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DominoesApp.Tests", "DominoesApp.Tests\DominoesApp.Tests.csproj", "{19537295-6E72-4943-99BA-82A2A2D8EE91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{50E0BCBC-4AA8-4652-996C-9FC9310B5C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50E0BCBC-4AA8-4652-996C-9FC9310B5C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50E0BCBC-4AA8-4652-996C-9FC9310B5C25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C949B1A-C27A-4E7D-971F-2B961E96C908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C949B1A-C27A-4E7D-971F-2B961E96C908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C949B1A-C27A-4E7D-971F-2B961E96C908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C949B1A-C27A-4E7D-971F-2B961E96C908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19537295-6E72-4943-99BA-82A2A2D8EE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19537295-6E72-4943-99BA-82A2A2D8EE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19537295-6E72-4943-99BA-82A2A2D8EE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19537295-6E72-4943-99BA-82A2A2D8EE91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
