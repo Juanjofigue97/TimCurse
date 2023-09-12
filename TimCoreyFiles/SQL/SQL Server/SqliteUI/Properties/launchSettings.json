@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SqliteUI": {
+      "commandName": "Project",
+      "sqlDebugging": false
+    }
+  }
+}

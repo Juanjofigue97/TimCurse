@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="27ca9036-a97c-4e8a-92b2-d0869c56d2c0" ChangeDateTime="08/04/2023 20:10:04">
+    <Property Name="ElementName" Value="[dbo].[Followers].[follerID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Followers]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="followerID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6a0f90d1-b5da-4bf9-85df-0b8a52b0fbbb" ChangeDateTime="08/04/2023 20:10:27">
+    <Property Name="ElementName" Value="[dbo].[Followers].[followerID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Followers]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FollowerID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="87c52c02-2bdd-48b5-a654-844ad56917b9" ChangeDateTime="08/04/2023 20:10:43">
+    <Property Name="ElementName" Value="[dbo].[Followers].[FollowerID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Followers]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FollowerId" />
+  </Operation>
+</Operations>
