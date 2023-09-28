@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TupleDeconstruction", "Tupl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NestedTuples", "NestedTuples\NestedTuples.csproj", "{50E0BCBC-4AA8-4652-996C-9FC9310B5C25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DominoesApp", "DominoesApp\DominoesApp.csproj", "{0C949B1A-C27A-4E7D-971F-2B961E96C908}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DominoesApp", "DominoesApp\DominoesApp.csproj", "{0C949B1A-C27A-4E7D-971F-2B961E96C908}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DominoesApp.Tests", "DominoesApp.Tests\DominoesApp.Tests.csproj", "{19537295-6E72-4943-99BA-82A2A2D8EE91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DominoesApp.Tests", "DominoesApp.Tests\DominoesApp.Tests.csproj", "{19537295-6E72-4943-99BA-82A2A2D8EE91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DominoesAppCommunity", "DominoesAppCommunity\DominoesAppCommunity.csproj", "{E7F76F01-3274-40CC-BC46-240E846258A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythagoreanTripletApp", "PythagoreanTripletApp\PythagoreanTripletApp.csproj", "{C342592B-3831-42DD-91F2-F67F25BB940C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{19537295-6E72-4943-99BA-82A2A2D8EE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19537295-6E72-4943-99BA-82A2A2D8EE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19537295-6E72-4943-99BA-82A2A2D8EE91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F76F01-3274-40CC-BC46-240E846258A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F76F01-3274-40CC-BC46-240E846258A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F76F01-3274-40CC-BC46-240E846258A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F76F01-3274-40CC-BC46-240E846258A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C342592B-3831-42DD-91F2-F67F25BB940C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C342592B-3831-42DD-91F2-F67F25BB940C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C342592B-3831-42DD-91F2-F67F25BB940C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C342592B-3831-42DD-91F2-F67F25BB940C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
