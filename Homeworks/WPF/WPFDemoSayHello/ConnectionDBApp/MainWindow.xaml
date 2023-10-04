@@ -1,0 +1,38 @@
+﻿<Window x:Class="ConnectionDBApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ConnectionDBApp"
+        mc:Ignorable="d"
+        Title="ConnectionDb" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Image Source="/Image/logo_cofinal.jpg" HorizontalAlignment="Left" Height="100" Margin="21,26,0,0" VerticalAlignment="Top" Width="100" Grid.Column="0" />
+
+        <Label Content="Conecction DB" HorizontalAlignment="Left" Margin="0,41,0,0" VerticalAlignment="Top" FontSize="35" FontWeight="Bold" Height="56" Width="264" Grid.Column="1"/>
+        <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="0" Margin="10,26,10,4">
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="1" Margin="0,0,0,286" Grid.RowSpan="3">
+            <ComboBox Name="ConecctionNames">
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding ConnName}" FontSize="16"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox>
+        </StackPanel>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="56,36,0,0" Grid.Row="3" VerticalAlignment="Top" Height="56" Width="131"/>
+    </Grid>
+</Window>
