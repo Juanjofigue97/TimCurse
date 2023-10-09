@@ -1,0 +1,40 @@
+﻿@page "/SayHello"
+
+<PageTitle> Say Hello User </PageTitle>
+
+<h3>SayHello</h3>
+
+<EditForm Model="_people" OnValidSubmit="AddPerson">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    
+    <label for="firstName" class="form-label">@nameof(person.FirstName)</label>
+    <InputText id="firstName" @bind-Value=person.FirstName class="form-control" />
+
+    <label for="lastName" class="form-label mt-2">@nameof(person.LastName)</label>
+    <InputText id="lastName" @bind-Value=person.LastName class="form-control" />
+
+    <button class="btn btn-primary mt-2" type="submit">Submit</button>
+
+</EditForm>
+
+<h2>People</h2>
+<ul>
+    @foreach (var person in _people)
+    {
+        <li>@person.FirstName @person.LastName</li>
+    }
+</ul>
+
+
+@code {
+    private PersonModel person = new();
+    private List<PersonModel> _people = new();
+
+    private void AddPerson()
+    {
+        _people.Add(person);
+        person = new();
+    }
+
+}
