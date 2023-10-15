@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DemoLibrary">
+      <HintPath>..\..\..\..\OwnProjects\WindowsForms\MiniProjectApp\DemoLibrary\bin\Release\netstandard2.0\DemoLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
