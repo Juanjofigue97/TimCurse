@@ -1,0 +1,134 @@
+﻿@page "/"
+@page "/FormularioAutorizacion"
+
+@inject IVerifySMS verifySMS
+@inject ISendSMS sendSMS
+@inject SqlCrud db
+@inject DialogService DialogService
+
+
+<PageTitle>Formulario Autorizacion</PageTitle>
+
+
+<h3>Formulario de Autorización</h3>
+
+<style>
+    .checkboxOwn {
+        outline: none !important
+    }
+</style>
+
+<EditForm Model="model" OnValidSubmit="SaveInformation">
+    <DataAnnotationsValidator />
+    <div Class="rz-p-0 rz-p-md-12">
+        <RadzenRow Gap="1rem">
+            <RadzenColumn Size="12" SizeSM="6">
+                <RadzenStack>
+                    <RadzenFormField Text="Nombre" Variant="@variant">
+                        <RadzenTextBox Name="NombreAsociado" @bind-Value="@model.Nombre" />
+                    </RadzenFormField>
+                    <RadzenFormField Text="Apellido" Variant="@variant">
+                        <RadzenTextBox @bind-Value="@model.Apellido" />
+                    </RadzenFormField>
+                    @*<ValidationMessage For="() => model.Nombre" class="text-sm-left" />*@
+                    <RadzenFormField Text="Cedula" Variant="@variant">
+                        <RadzenNumeric @bind-Value="@model.Cedula" />
+                    </RadzenFormField>
+                    <RadzenFormField Text="Celular" Variant="@variant">
+                        <RadzenNumeric Name="CelularForm" @bind-Value="@model.Celular" />
+                    </RadzenFormField>
+                </RadzenStack>
+            </RadzenColumn>
+            <RadzenColumn Size="12" SizeSM="6">
+                <RadzenStack>
+                    <RadzenFormField Text="Agencia" Variant="@variant">
+                        <RadzenDropDown Data=nombreAgencias @bind-Value="@model.Agencia" />
+                    </RadzenFormField>
+                    <RadzenFormField Text="Canales Autorizados" Variant="@variant">
+                        <RadzenCheckBoxList @bind-Value=@model.CanalesAutorizados TValue="string" Orientation=Orientation.Vertical class="rz-m-2 rz-mt-2 checkboxOwn">
+                            <Items>
+                                @foreach (var canal in nombreCanales)
+                                {
+                                    <RadzenCheckBoxListItem Text="@canal" Value="@canal" />
+                                }
+                            </Items>
+                        </RadzenCheckBoxList>
+                    </RadzenFormField>
+                    <ValidationMessage For="() => model.CanalesAutorizados" class="rz-message rz-messages-error " />
+                </RadzenStack>
+            </RadzenColumn>
+        </RadzenRow>
+        <RadzenRow Gap="1rem">
+            <RadzenStack Orientation="Orientation.Vertical">
+                <RadzenLabel Text="Autorizacion" />
+            </RadzenStack>
+            <RadzenSwitch @bind-Value=@model.EsAutorizado />
+        </RadzenRow>
+        <ValidationMessage For="() => model.EsAutorizado" class="rz-message rz-messages-error " />
+        <RadzenButton ButtonType="ButtonType.Submit" Size="ButtonSize.Small" Icon="save" Text="Guardar" />
+    </div>
+
+</EditForm>
+
+
+@code {
+    Variant variant = Variant.Outlined;
+    IEnumerable<string> nombreAgencias;
+    IEnumerable<string> nombreCanales;
+
+    PersonModel model = new();
+
+
+    private void SaveInformation()
+    {
+        //(bool status ,int code) = sendSMS.Send(model.Celular);
+        (bool status, int code) = sendSMS.SendTest(model.Celular);
+        model.tokenVerificacion = code.ToString();
+        ConfirmacionCodigo();
+    }
+
+    private void ConfirmacionCodigo()
+    {
+        DialogService.Open("Verificacion de Codigo OTP", ds =>
+    @<div class="rz-p-12 rz-text-align-center">
+
+        <RadzenFormField Text="CodigoOTP" Variant="@variant">
+            <RadzenPassword @bind-Value=model.token />
+        </RadzenFormField>
+        <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.Center" Gap="1rem" Class="rz-mt-8 rz-mb-4">
+            <RadzenButton Click=@Verificacion ButtonStyle="ButtonStyle.Primary" Size="ButtonSize.Small" Icon="save" Text="Enviar" />
+        </RadzenStack>
+        </div>
+    , new DialogOptions()
+    {
+        CssClass = "custom-dialog-class",
+        WrapperCssClass = "custom-dialog-wrapper-class"
+    });
+    }
+    private void Verificacion()
+    {
+        DialogService.Close();
+
+        if (model.token == model.tokenVerificacion)
+        {
+            model.FechaRegistro = DateTime.Now;
+            model.Ip = GlobalServices.GetIPAddress();
+
+            DialogService.Alert("Codigo aceptado!", "Correcto", new AlertOptions() { OkButtonText = "Yes" });
+            db.SavePerson(model);
+        }
+        else
+        {
+            DialogService.Alert("Codigo Denegado!", "Error", new AlertOptions() { OkButtonText = "Yes" });
+        }
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+
+        nombreAgencias = db.GetAgencies().Select(c => c.Name).Distinct();
+        nombreCanales = db.GetChanneles().Select(c => c.Name).Distinct();
+    }
+}
+
+
