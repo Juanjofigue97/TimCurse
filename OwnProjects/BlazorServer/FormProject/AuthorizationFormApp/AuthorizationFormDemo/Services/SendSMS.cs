@@ -1,4 +1,7 @@
-﻿using System.Net.Http.Headers;
+﻿using System.Net;
+using System.Net.Http.Headers;
+using System.Net.Mail;
+using System.Web;
 
 namespace AuthorizationFormDemo.Services
 {
@@ -71,6 +74,30 @@ namespace AuthorizationFormDemo.Services
             Random random = new Random();
             int output = random.Next(100000, 1000000);
             Console.WriteLine(output);
+            return (true, output);
+        }
+
+        public (bool status, int code) SendEmail(string EmailDestino)
+        {
+            Random random = new Random();
+            int output = random.Next(100000, 1000000);
+            SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
+
+            smtp.UseDefaultCredentials = false;
+            smtp.Credentials = new NetworkCredential("sistemascofinal@gmail.com", "aadxnyctwwnchyef");
+            smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+            smtp.EnableSsl = true;
+
+            string body = $"Tu codigo es:{ output }";
+            MailMessage mail = new MailMessage();
+            mail.From = new MailAddress("sistemascofinal@gmail.com", "Codigo de Seguridad");
+            mail.To.Add(new MailAddress(EmailDestino));
+            mail.Subject = "Codigo de Seguridad";
+            mail.IsBodyHtml = true;
+            mail.Body = body;
+            smtp.Send(mail);
+            smtp.Dispose();
+
             return (true, output);
         }
     }

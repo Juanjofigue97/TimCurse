@@ -3,7 +3,7 @@
 
 @inject IVerifySMS verifySMS
 @inject ISendSMS sendSMS
-@inject SqlLite db
+@inject SqlCrud db
 @inject DialogService DialogService
 
 
@@ -37,6 +37,9 @@
                     <RadzenFormField Text="Celular" Variant="@variant">
                         <RadzenNumeric Name="CelularForm" @bind-Value="@model.Celular" />
                     </RadzenFormField>
+                    <RadzenFormField Text="Correo" Variant="@variant">
+                        <RadzenTextBox Name="Correo" @bind-Value="@model.correo" />
+                    </RadzenFormField>
                 </RadzenStack>
             </RadzenColumn>
             <RadzenColumn Size="12" SizeSM="6">
@@ -58,6 +61,7 @@
                 </RadzenStack>
             </RadzenColumn>
         </RadzenRow>
+
         <RadzenRow Gap="1rem">
             <RadzenStack Orientation="Orientation.Vertical">
                 <RadzenLabel Text="Autorizacion" />
@@ -82,7 +86,10 @@
     private void SaveInformation()
     {
         //(bool status ,int code) = sendSMS.Send(model.Celular);
-        (bool status, int code) = sendSMS.SendTest(model.Celular);
+        //(bool status, int code) = sendSMS.SendTest(model.Celular);
+
+        //Email
+        (bool status, int code) = sendSMS.SendEmail(model.correo);
         model.tokenVerificacion = code.ToString();
         ConfirmacionCodigo();
     }

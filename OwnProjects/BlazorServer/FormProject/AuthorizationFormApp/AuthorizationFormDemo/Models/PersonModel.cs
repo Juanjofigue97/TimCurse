@@ -29,6 +29,9 @@ public class PersonModel
     public string Ip { get; set; }
     public string token { get; set; }
     public string tokenVerificacion { get; set; }
+    [Required]
+    [EmailAddress(ErrorMessage = "Correo Invalido")]
+    public string correo { get; set; }
 
 
 }

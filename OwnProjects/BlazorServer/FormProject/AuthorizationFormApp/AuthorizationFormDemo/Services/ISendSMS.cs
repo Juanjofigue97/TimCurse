@@ -4,5 +4,6 @@
     {
         public (bool status, int code) Send(string celular);
         public (bool status, int code) SendTest(string celular);
+        public (bool status, int code) SendEmail(string EmailDestino);
     }
 }
