@@ -1,0 +1,48 @@
+﻿@page "/PersonalInformation"
+
+<h3>Personal Information</h3>
+
+<EditForm Model="person" OnValidSubmit="SaveData">
+    <ValidationSummary />
+    <DataAnnotationsValidator />
+
+    <label for="firstName" class="form-label">@nameof(person.FirstName)</label>
+    <InputText id="firstName" @bind-Value="person.FirstName" class="form-control" />
+
+    <label for="lastName" class="form-label">@nameof(person.LastName)</label>
+    <InputText id="lastName" @bind-Value="person.LastName" class="form-control" />
+
+    <label for="isActive" class="form-label">@nameof(person.IsActive)</label>
+    <InputCheckbox id="isActive" @bind-Value="person.IsActive" />
+    <br />
+    <button class="btn btn-primary mt-2" type="submit">Submit</button>
+</EditForm>
+
+<button class="btn btn-primary mt-2" type="reset" asp-page-handler="ResetInfo">Reset</button>
+
+<table class="mt-2">
+    <tr>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>IsValid</th>
+    </tr>
+    @foreach (var person in _people)
+    {
+        <tr>
+            <td>@person.FirstName</td>
+            <td>@person.LastName</td>
+            <td>@person.IsActive</td>
+        </tr>
+    }
+</table>
+
+@code {
+    private PersonModel person = new();
+    private List<PersonModel> _people = new();
+
+    private void SaveData()
+    {
+        _people.Add(person);
+        person = new();
+    }
+}

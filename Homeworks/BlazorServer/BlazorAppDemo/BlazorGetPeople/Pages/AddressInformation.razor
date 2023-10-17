@@ -1,0 +1,60 @@
+﻿@page "/AddressInformation"
+
+
+<h3>Addres Information</h3>
+
+
+<EditForm Model="Address" OnValidSubmit="SaveData">
+    <ValidationSummary />
+    <DataAnnotationsValidator />
+
+    <label for="StreetAddress" class="form-label">@nameof(Address.StreetAddress)</label>
+    <InputText id="StreetAddress" @bind-Value="Address.StreetAddress" class="form-control" />
+
+    <label for="City" class="form-label">@nameof(Address.City)</label>
+    <InputText id="City" @bind-Value="Address.City" class="form-control" />
+
+    <label for="State" class="form-label">@nameof(Address.State)</label>
+    <InputText id="State" @bind-Value="Address.State" class="form-control" />
+
+    <label for="ZipCode" class="form-label">@nameof(Address.ZipCode)</label>
+    <InputText id="ZipCode" @bind-Value="Address.ZipCode" class="form-control" />
+
+    <button class="btn btn-primary mt-2" type="submit">Submit</button>
+</EditForm>
+
+<button class="btn btn-primary mt-2" @onclick="ResetData"> Reset </button>
+
+<table class="mt-2">
+    <tr>
+        <th>StreetAddress</th>
+        <th>City</th>
+        <th>State</th>
+        <th>ZipCode</th>
+    </tr>
+    @foreach (var person in Addresses)
+    {
+        <tr>
+            <td>@person.StreetAddress</td>
+            <td>@person.City</td>
+            <td>@person.State</td>
+            <td>@person.ZipCode</td>
+        </tr>
+    }
+</table>
+
+@code {
+    private AddressModel Address = new();
+    private List<AddressModel> Addresses = new();
+
+    private void SaveData()
+    {
+        Addresses.Add(Address);
+        Address = new();
+    }
+    private void ResetData()
+    {
+        Addresses.Clear();
+        Address = new();
+    }
+}
