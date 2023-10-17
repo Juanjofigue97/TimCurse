@@ -1,0 +1,36 @@
+﻿@page
+@model AddressModel
+@{
+    ViewData["Title"] = "Address";
+}
+
+<h1>Address</h1>
+
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="Country" class="form-label">Country</label>
+        <input asp-for="Country" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="City" class="form-label">City</label>
+        <input asp-for="City" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Neighborhood" class="form-label">Neighborhood</label>
+        <input asp-for="Neighborhood" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="PostalCode" class="form-label">PostalCode</label>
+        <input asp-for="PostalCode" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Street" class="form-label">Street</label>
+        <input asp-for="Street" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-warning">Submit</button>
+</form>
+
+@if ((bool) ViewData["isValid"])
+{
+  <p>Your data has been save</p>
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIPersonModel", "APIPersonModel\APIPersonModel.csproj", "{76518F75-92B1-4CBB-8FB7-D59D13B382FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleModelAPI", "PeopleModelAPI\PeopleModelAPI.csproj", "{74ED9F7D-B451-41E6-AA30-3CCD257BAEE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76518F75-92B1-4CBB-8FB7-D59D13B382FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76518F75-92B1-4CBB-8FB7-D59D13B382FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76518F75-92B1-4CBB-8FB7-D59D13B382FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76518F75-92B1-4CBB-8FB7-D59D13B382FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74ED9F7D-B451-41E6-AA30-3CCD257BAEE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74ED9F7D-B451-41E6-AA30-3CCD257BAEE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74ED9F7D-B451-41E6-AA30-3CCD257BAEE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74ED9F7D-B451-41E6-AA30-3CCD257BAEE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E0D3CA5-63CF-4AB2-8409-7B834A71F354}
+	EndGlobalSection
+EndGlobal

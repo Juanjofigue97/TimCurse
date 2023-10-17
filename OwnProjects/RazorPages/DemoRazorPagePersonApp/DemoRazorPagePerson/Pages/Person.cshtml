@@ -1,0 +1,21 @@
+﻿@page
+@model DemoRazorPagePerson.Pages.PersonModel
+@{
+    ViewData["Title"] = "Person Form";
+}
+<h1>Hello @ViewData["name"]</h1>
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="FirstName" class="form-label">FirstName</label>
+        <input asp-for="FirstName" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="LastName" class="form-label">LastName</label>
+        <input asp-for="LastName" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Age" class="form-label">Age</label>
+        <input asp-for="Age" class="form-control" type="number"/>
+    </div>
+    <button type="submit" class="btn btn-warning">Submit</button>
+</form>
