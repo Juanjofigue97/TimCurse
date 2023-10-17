@@ -1,4 +1,4 @@
-﻿using AuthorizationFormDemo.Data;
+﻿using AuthorizationFormDemo.Models;
 using System.Threading.Channels;
 
 namespace AuthorizationFormDemo.DataAccess

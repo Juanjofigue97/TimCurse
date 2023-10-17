@@ -1,29 +1,28 @@
 ﻿using AuthorizationFormDemo.Models;
-using System.Linq;
 
 namespace AuthorizationFormDemo.DataAccess
 {
-    public class SqlCrud : ISqlCrud
+    public class SqlLite : ISqlCrud
     {
         private readonly IConfiguration _config;
         private readonly string _connectionString;
-        private MySQLDataAccess db = new MySQLDataAccess();
+        private SQLiteDataAccess db = new SQLiteDataAccess();
 
-        public SqlCrud(IConfiguration config)
+        public SqlLite(IConfiguration config)
         {
             _config = config;
-            _connectionString = config.GetConnectionString("Default");
+            _connectionString = config.GetConnectionString("SQLite");
         }
         public List<Agency> GetAgencies()
         {
-            string sql = "SELECT Id,NombreAgencia as Name FROM formularioautorizacion.agencias;";
+            string sql = "SELECT Id,NombreAgencia as Name FROM agencias;";
 
             return db.LoadData<Agency, dynamic>(sql, new { }, _connectionString);
         }
 
         public List<ChannelModel> GetChanneles()
         {
-            string sql = "SELECT Id,NombreCanal as Name FROM formularioautorizacion.canales;";
+            string sql = "SELECT Id,NombreCanal as Name FROM canales;";
 
             return db.LoadData<ChannelModel, dynamic>(sql, new { }, _connectionString);
         }
@@ -37,18 +36,19 @@ namespace AuthorizationFormDemo.DataAccess
 
         public void SavePerson(PersonModel model)
         {
-            string canales = string.Join(",", model.CanalesAutorizados);
-            
-            string sql = "insert into formularioautorizacion.asociado (Nombre, Apellido,Cedula,Celular,Agencia,Canales,EsAutorizado,FechaRegistro,Ip) values (@Nombre, @Apellido,@Cedula,@Celular,@Agencia,@Canales,@EsAutorizado,@FechaRegistro,@Ip);";
+            string CanalesLista = string.Join(",", model.CanalesAutorizados);
+
+            string sql = "insert into asociado (Nombre, Apellido,Cedula,Celular,Agencia,CanalesLista,EsAutorizado,FechaRegistro,Ip) values (@Nombre, @Apellido,@Cedula,@Celular,@Agencia,@CanalesLista,@EsAutorizado,@FechaRegistro,@Ip);";
 
             db.SaveData(sql,
-                        new { 
-                            model.Nombre, 
+                        new
+                        {
+                            model.Nombre,
                             model.Apellido,
                             model.Cedula,
                             model.Celular,
                             model.Agencia,
-                            canales,
+                            CanalesLista,
                             model.EsAutorizado,
                             model.FechaRegistro,
                             model.Ip
