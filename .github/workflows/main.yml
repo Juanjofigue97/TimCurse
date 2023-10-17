@@ -19,13 +19,13 @@ jobs:
           dotnet-version: '7.0.x'
 
       - name: Restore
-        run: dotnet restore ./OwnProjects/BlazorServer/FormProject/AuthorizationFormApp/AuthorizationFormApp.sln
+        run: dotnet restore ./OwnProjects/BlazorServer/BlazorDemoApp/BlazorDemoApp.sln
 
       - name: Build
-        run: dotnet build ./OwnProjects/BlazorServer/FormProject/AuthorizationFormApp/AuthorizationFormApp.sln --configuration Release --no-restore
+        run: dotnet build ./OwnProjects/BlazorServer/BlazorDemoApp/BlazorDemoApp.sln --configuration Release --no-restore
 
       - name: Publish
-        run: dotnet publish ./OwnProjects/BlazorServer/FormProject/AuthorizationFormApp/AuthorizationFormApp.sln --configuration Release --no-build
+        run: dotnet publish ./OwnProjects/BlazorServer/BlazorDemoApp/BlazorDemoApp.sln --configuration Release --no-build
           
         
     
