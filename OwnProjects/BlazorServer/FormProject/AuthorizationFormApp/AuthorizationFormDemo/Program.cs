@@ -18,6 +18,7 @@ builder.Services.AddSingleton<ISendSMS,SendSMS>();
 builder.Services.AddSingleton<IVerifySMS,VerifySMS>();
 
 builder.Services.AddSingleton<SqlCrud>();
+builder.Services.AddSingleton<SqlLite>();
 
 var app = builder.Build();
 
