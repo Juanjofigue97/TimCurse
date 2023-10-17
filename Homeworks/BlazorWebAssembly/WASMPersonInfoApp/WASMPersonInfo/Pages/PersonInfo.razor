@@ -1,0 +1,65 @@
+﻿@page "/PersonInfo"
+
+<h3>PersonInfo</h3>
+<EditForm Model="Person" OnValidSubmit="SavePerson">
+    <ValidationSummary />
+    <DataAnnotationsValidator />
+
+    <h3 class="mt-2">Personal Information</h3>
+
+    <InputText @bind-Value="Person.FirstName" placeholder="FirstName" class="form-control"/>
+    <InputText @bind-Value="Person.LastName" placeholder="LastName" class="form-control" />
+    <InputCheckbox @bind-Value="Person.IsActive" class="form-check"/>
+    
+    <button class="btn btn-primary" type="submit">Submit</button>
+
+</EditForm>
+
+<EditForm Model="addressModel" OnValidSubmit="SaveAddress">
+    <ValidationSummary />
+    <DataAnnotationsValidator />
+
+    <h3 class="mt-2">Address </h3>
+
+    <InputText @bind-Value="addressModel.StreetAddress" placeholder="StreetAddress" class="form-control" />
+    <InputText @bind-Value="addressModel.City" placeholder="City" class="form-control" />
+    <InputText @bind-Value="addressModel.State" placeholder="State" class="form-control" />
+    <InputText @bind-Value="addressModel.ZipCode" placeholder="ZipCode" class="form-control" />
+
+    <button class="btn btn-primary" type="submit">Submit</button>
+
+</EditForm>
+
+
+@foreach (var p in People)
+{
+    <p>@p.FirstName @p.LastName : @p.IsActive </p>
+    
+}
+
+@foreach (var p in Addresses)
+{
+    <p>@p.AddressDisplayValue</p>
+}
+
+
+@code {
+    private PersonModel Person = new();
+    private AddressModel addressModel = new();
+
+    private List<PersonModel> People = new();
+    private List<AddressModel> Addresses = new();
+
+
+    private void SavePerson()
+    {
+        People.Add(Person);
+        Person = new();
+    }
+    private void SaveAddress()
+    {
+        Addresses.Add(addressModel);
+        addressModel = new();
+    }
+
+}
