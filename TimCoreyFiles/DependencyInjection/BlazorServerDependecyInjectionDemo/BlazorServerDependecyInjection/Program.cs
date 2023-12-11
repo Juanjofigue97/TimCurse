@@ -30,10 +30,14 @@ builder.Services.AddSingleton<WeatherForecastService>();
 // - Why?
 // 
 
-builder.Services.AddTransient<IDemo,Demo>();
-builder.Services.AddTransient<IDemo,UtcDemo>();
-builder.Services.AddTransient<ProcessDemo>();
 
+// More Comm
+
+//builder.Services.AddTransient<IDemo,Demo>();
+//builder.Services.AddTransient<IDemo,UtcDemo>();
+//builder.Services.AddTransient<ProcessDemo>();
+
+builder.Services.AddDemoInfo();
 
 var app = builder.Build();
 
