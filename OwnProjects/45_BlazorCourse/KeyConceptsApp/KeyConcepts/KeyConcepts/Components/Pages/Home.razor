@@ -1,0 +1,16 @@
+﻿@page "/"
+@inject IDemoDependecy demo
+
+<PageTitle>Home</PageTitle>
+<HeadContent>
+    <meta name="description" content="This is description for the home page" />
+</HeadContent>
+<h1>Hello, everyone!</h1>
+<h2>@demo.GiveRandomNumber()</h2>
+Welcome to your new app.
+
+@for(var i = 1; i < 5; i++)
+{
+    <h2>This is counter number @i</h2>
+    <Counter />
+}
