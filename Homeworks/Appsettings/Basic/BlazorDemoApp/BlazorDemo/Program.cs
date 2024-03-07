@@ -1,6 +1,10 @@
 using BlazorDemo.Data;
+using BlazorDemo.Options;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +12,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.Configure<EmailSettingsOptions>(builder.Configuration.GetSection("EmailSettings"));
+
+
+
+builder.WebHost.UseWebRoot("wwwroot").UseStaticWebAssets();
 
 var app = builder.Build();
 

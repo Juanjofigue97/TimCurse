@@ -1,5 +1,6 @@
 ﻿@page "/"
 @inject IConfiguration _config
+@inject IOptions<EmailSettingsOptions> _emailSettingsOptions
 
 <PageTitle>Index</PageTitle>
 
@@ -12,19 +13,39 @@
     MySubSetting Value: @mySubSetting
 </p>
 <p>
+    SubSubSetting Value: @mySubSubSetting
+</p>
+<p>
     ConnectionString Value: @connectionString
 </p>
-
+<p>
+    Email Enabled : @emailSettings.EnableEmailSystem <br />
+    Email TimeOut : @emailSettings.EmailTimeoutInSeconds <br />
+    Email Server : @foreach(string server in emailSettings.EmailServers)
+    {
+        @server @:&nbsp;
+    }
+    <br />
+    Email Admin: @emailSettings.EmailAdmin.FirstName @emailSettings.EmailAdmin.LastName
+</p>
 
 @code{
     string mySetting = "";
     string mySubSetting = "";
     string connectionString = "";
+    string mySubSubSetting = "";
+    EmailSettingsOptions emailSettings = new EmailSettingsOptions();
+
 
     protected override void OnInitialized()
     {
         mySetting = _config.GetValue<string>("MySetting");
         mySubSetting = _config.GetValue<string>("MainSetting:SubSetting");
         connectionString = _config.GetConnectionString("Default");
+        mySubSubSetting = _config.GetValue<string>("MainSetting:SubSection:SubSubSetting");
+
+        emailSettings = _emailSettingsOptions.Value;
+
+        //emailSettings = _config.GetSection("EmailSettings").Get<EmailSettingsOptions>();
     }
 }
