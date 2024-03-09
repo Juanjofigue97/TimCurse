@@ -29,17 +29,15 @@ if (env == "Development")
 {
     builder.Configuration.AddUserSecrets<Program>();
 }
-builder.Configuration.AddEnvironmentVariables();
-builder.Configuration.AddCommandLine(args);
 builder.Configuration.AddJsonFile("custom.json", optional: true, reloadOnChange: true);
 builder.Configuration.AddXmlFile("custom.xml", optional: true, reloadOnChange:true) ;
 builder.Configuration.AddIniFile("custom.ini", optional: true, reloadOnChange: true);
-builder.Configuration.AddInMemoryCollection(memCollection);
-//builder.Services.AddOptions<MyOptions>().BindConfiguration("MyConfig");
-
-//builder.Services.AddHostedService<MyWorker>();
+// builder.Configuration.AddInMemoryCollection(memCollection);
+builder.Configuration.AddEnvironmentVariables();
+builder.Configuration.AddCommandLine(args);
 
 builder.WebHost.UseWebRoot("wwwroot").UseStaticWebAssets();
+
 
 var app = builder.Build();
 
@@ -50,6 +48,7 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
 
 app.UseHttpsRedirection();
 
