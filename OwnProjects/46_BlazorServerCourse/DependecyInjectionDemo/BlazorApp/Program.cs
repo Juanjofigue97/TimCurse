@@ -7,8 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddSingleton<WeatherForecastService>();
-builder.Services.AddSingleton<IDataAccess, DummyDataAccess>(); 
+builder.Services.AddTransient<WeatherForecastService>();
+//builder.Services.AddSingleton<IDataAccess, DummyDataAccess>();  // Same instanse for all Users
+//builder.Services.AddScoped<IDataAccess, DummyDataAccess>();  // Same instanse per User
+builder.Services.AddTransient<IDataAccess, DummyDataAccess>();  // Different instanse every Time you call
 
 var app = builder.Build();
 
