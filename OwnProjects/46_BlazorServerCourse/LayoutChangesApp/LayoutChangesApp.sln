@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutChanges", "LayoutChanges\LayoutChanges\LayoutChanges.csproj", "{6AC0CD80-BB38-499D-945F-938805EF82F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutChanges.Client", "LayoutChanges\LayoutChanges.Client\LayoutChanges.Client.csproj", "{10D65175-A865-4840-B25C-44C197844A5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AC0CD80-BB38-499D-945F-938805EF82F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC0CD80-BB38-499D-945F-938805EF82F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC0CD80-BB38-499D-945F-938805EF82F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC0CD80-BB38-499D-945F-938805EF82F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D65175-A865-4840-B25C-44C197844A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D65175-A865-4840-B25C-44C197844A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D65175-A865-4840-B25C-44C197844A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D65175-A865-4840-B25C-44C197844A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1611202-4359-4DF7-845D-1AC1996AA4FE}
+	EndGlobalSection
+EndGlobal

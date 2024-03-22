@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{38E1B0CE-6B29-4885-B23E-27269811F66C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingDemo", "RoutingDemo\RoutingDemo.csproj", "{A99596E9-3194-4515-A59C-44CA925C75AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38E1B0CE-6B29-4885-B23E-27269811F66C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E1B0CE-6B29-4885-B23E-27269811F66C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E1B0CE-6B29-4885-B23E-27269811F66C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E1B0CE-6B29-4885-B23E-27269811F66C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99596E9-3194-4515-A59C-44CA925C75AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99596E9-3194-4515-A59C-44CA925C75AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99596E9-3194-4515-A59C-44CA925C75AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99596E9-3194-4515-A59C-44CA925C75AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A9EDAE2-BCF6-4091-9BCC-D60A789438A1}
+	EndGlobalSection
+EndGlobal
