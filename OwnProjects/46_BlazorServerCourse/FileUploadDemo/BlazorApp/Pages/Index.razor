@@ -1,0 +1,22 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+<InputFile OnChange="LoadFiles" multiple />
+
+@code {
+
+    private void LoadFiles(InputFileChangeEventArgs e)
+    {
+        foreach (var item in e.GetMultipleFiles())
+        {
+            if (item.Size > 0)
+            {
+                
+            }
+            Console.WriteLine($"Nombre Archivo: {item.Name}");
+        }
+    }
+}
