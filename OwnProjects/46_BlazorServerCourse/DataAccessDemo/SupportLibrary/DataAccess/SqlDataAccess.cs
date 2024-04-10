@@ -40,5 +40,15 @@ namespace SupportLibrary.DataAccess
                     commandType: CommandType.StoredProcedure);
             }
         }
+        public void SaveDataD<T>(string storedProcedure, T parameters, string connectionStringName)
+        {
+            string connectionString = _config.GetConnectionString(connectionStringName)!;
+
+            using (IDbConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Execute(storedProcedure, parameters,
+                    commandType: CommandType.StoredProcedure);
+            }
+        }
     }
 }

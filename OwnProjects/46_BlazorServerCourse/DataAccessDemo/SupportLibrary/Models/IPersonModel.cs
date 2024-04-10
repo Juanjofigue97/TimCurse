@@ -6,6 +6,6 @@ namespace SupportLibrary.Models
         int Id { get; set; }
         string FirstName { get; set; }
         string LastName { get; set; }
-        DateTime DateOfBirth { get; set; }
+        DateTime? DateOfBirth { get; set; }
     }
 }

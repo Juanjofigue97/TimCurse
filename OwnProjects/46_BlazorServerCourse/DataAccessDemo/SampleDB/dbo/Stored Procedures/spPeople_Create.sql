@@ -5,7 +5,7 @@
 AS
 BEGIN
 	set nocount on;
-	insert into dbo.People(FirstName, LastName, DateOfBirht)
+	insert into dbo.People(FirstName, LastName, DateOfBirth)
 	values (@FirstName, @LastName, @DateOfBirth);
 
 END

@@ -3,5 +3,5 @@
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
     [FirstName] NVARCHAR(50) NULL, 
     [LastName] NVARCHAR(50) NULL, 
-    [DateOfBirht] DATETIME2 NULL
+    [DateOfBirth] DATETIME2 NULL
 )

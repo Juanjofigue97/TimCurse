@@ -11,6 +11,6 @@ namespace BlazorApp.Models
         [Required]
         public string LastName { get; set; }
         [Required]
-        public DateTime DateOfBirth { get; set; }
+        public DateTime? DateOfBirth { get; set; }
     }
 }

@@ -1,0 +1,49 @@
+﻿@page "/readpeople"
+@inject IPersonDataService personData
+<h3>ReadPeople</h3>
+
+@if (people is null)
+{
+    <h2>Loading...</h2>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-8">
+            <table class="table table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Id</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Date Of Birth</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var p in people)
+                    {
+                        <tr>
+                            <th>@p.Id</th>
+                            <th>@p.FirstName</th>
+                            <th>@p.LastName</th>
+                            <th>@p.DateOfBirth</th>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-4">
+            <UpdatePerson Id="1"></UpdatePerson>
+        </div>
+    </div>
+}    
+
+
+@code {
+    private List<IPersonModel> people;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        people = await personData.ReadPeople();
+    }
+}
