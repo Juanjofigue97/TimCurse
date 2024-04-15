@@ -54,5 +54,15 @@ namespace SupportLibrary.Data
         {
             await _dataAccess.SaveData("spPeople_Update", person, "SQLDB");
         }
+        public async Task DeletePerson(int id)
+        {
+            await _dataAccess.SaveData("spPeople_Delete", new { Id = id}, "SQLDB");
+        }
+        public async Task<List<IPersonModel>> SearchPeople(string searchTerm )
+        {
+            var peolpe = await _dataAccess.LoadData<PersonModel, dynamic>("spPeople_Search", new { SearchTerm = searchTerm }, "SQLDB");
+            
+            return peolpe.ToList<IPersonModel>();
+        }
     }
 }
