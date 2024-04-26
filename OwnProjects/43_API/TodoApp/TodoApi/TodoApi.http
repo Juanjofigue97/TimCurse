@@ -1,0 +1,22 @@
+@TodoApi_HostAddress = http://localhost:5299
+
+
+### https://learn.microsoft.com/en-us/aspnet/core/test/http-files?view=aspnetcore-8.0
+
+POST {{TodoApi_HostAddress}}/api/Authentication/token
+Content-Type: application/json
+
+{
+  "userName": "Juan",
+  "password": "123Juan"
+}
+
+
+### Health Appp
+GET {{TodoApi_HostAddress}}/health/
+Accept: application/json
+
+
+### Todos
+GET {{TodoApi_HostAddress}}/api/Todos
+Accept: application/json
