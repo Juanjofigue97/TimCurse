@@ -1,0 +1,16 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<button class="btn btn-primary" @onclick="DoSomething">CreateTodo</button>
+
+@code{
+    private void DoSomething(){
+        BlazoApiGenereatedClient.Services.TodoApi test = new("https://localhost:7000/api/", new HttpClient());
+        // NSAWG
+    }
+}
